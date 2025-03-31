@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Burger
   m_EditorClassIdentifier: 
   foodName: Burger
-  foodIcon: {fileID: 0}
+  foodIcon: {fileID: 21300000, guid: 53c2af25370ab4d4d8f65264ed9d94e1, type: 3}

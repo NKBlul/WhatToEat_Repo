@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Mexican
   m_EditorClassIdentifier: 
   foodName: Mexican
-  foodIcon: {fileID: 0}
+  foodIcon: {fileID: 21300000, guid: e961e561f65c2274db16345b269b8f57, type: 3}

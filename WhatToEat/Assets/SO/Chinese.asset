@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Chinese
   m_EditorClassIdentifier: 
   foodName: Chinese
-  foodIcon: {fileID: 0}
+  foodIcon: {fileID: 21300000, guid: 2cce37cd85ef5ec4a92a7086ce35be83, type: 3}

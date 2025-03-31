@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Ramen
   m_EditorClassIdentifier: 
   foodName: Ramen
-  foodIcon: {fileID: 0}
+  foodIcon: {fileID: 21300000, guid: 5b8502bbe0ea9de4ca2bdf55de0986bb, type: 3}
