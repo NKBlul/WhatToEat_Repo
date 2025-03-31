@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52348c4ea43cac342a6a4585b88b481d, type: 3}
-  m_Name: Chicken
+  m_Name: Seafood
   m_EditorClassIdentifier: 
-  foodName: Chicken
-  foodIcon: {fileID: 0}
+  foodName: Seafood
+  foodIcon: {fileID: 21300000, guid: 30170c3fb3cf9e24fbce5151b8ead438, type: 3}

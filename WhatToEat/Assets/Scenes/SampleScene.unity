@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9e687685626a6a8498889e44071d3191, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -334,6 +334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rollDuration: 2
   rollSpeed: 0.1
+  confettiPrefab: {fileID: 474318956596634465, guid: be0648646d91efe42a2a29d266590045, type: 3}
 --- !u!114 &491353841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,9 +992,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 40}
+  m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: 801.474, y: 50}
-  m_Pivot: {x: 0.5, y: 4}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2142963276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,7 +1015,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Food Name
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8c19dc1d51fdce4e9f9f74c586f78c4, type: 2}
   m_sharedMaterial: {fileID: -1941469656463486364, guid: c8c19dc1d51fdce4e9f9f74c586f78c4, type: 2}
