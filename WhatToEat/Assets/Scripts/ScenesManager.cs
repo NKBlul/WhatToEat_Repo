@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class AudioManager : MonoBehaviour
+public class ScenesManager : MonoBehaviour
 {
-    public static AudioManager instance;
+    public static ScenesManager instance;
     private void Awake()
     {
         if (instance == null)
@@ -16,5 +17,10 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }
