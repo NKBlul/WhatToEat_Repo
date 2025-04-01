@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52348c4ea43cac342a6a4585b88b481d, type: 3}
   m_Name: Burger
   m_EditorClassIdentifier: 
-  foodName: Burger
-  foodIcon: {fileID: 21300000, guid: 53c2af25370ab4d4d8f65264ed9d94e1, type: 3}
+  choicename: Burger
+  choiceicon: {fileID: 21300000, guid: 53c2af25370ab4d4d8f65264ed9d94e1, type: 3}

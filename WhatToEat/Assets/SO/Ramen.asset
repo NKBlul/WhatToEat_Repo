@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52348c4ea43cac342a6a4585b88b481d, type: 3}
   m_Name: Ramen
   m_EditorClassIdentifier: 
-  foodName: Ramen
-  foodIcon: {fileID: 21300000, guid: 5b8502bbe0ea9de4ca2bdf55de0986bb, type: 3}
+  choicename: Ramen
+  choiceicon: {fileID: 21300000, guid: 5b8502bbe0ea9de4ca2bdf55de0986bb, type: 3}

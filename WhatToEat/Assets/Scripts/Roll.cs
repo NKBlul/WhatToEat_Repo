@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Roll : MonoBehaviour
 {
-    FoodList foodList;
+    ChoiceList choiceList;
     WhatToEat whatToEat;
     [SerializeField] private float rollDuration = 3f; 
     [SerializeField] private float rollSpeed = 0.2f;
@@ -13,33 +13,33 @@ public class Roll : MonoBehaviour
 
     private void Awake()
     {
-        foodList = GetComponent<FoodList>();
+        choiceList = GetComponent<ChoiceList>();
         whatToEat = GetComponent<WhatToEat>();
     }
 
     public void RollForFood()
     {
-        StartCoroutine(RollAnimation(foodList.foods));
+        StartCoroutine(RollAnimation(choiceList.lists));
     }
 
-    private IEnumerator RollAnimation(List<FoodSO> foods)
+    private IEnumerator RollAnimation(List<ChoiceSO> lists)
     {
         whatToEat.ButtonInteractable(false);
         float elapsedTime = 0f;
-        int finalIndex = Random.Range(0, foods.Count);
+        int finalIndex = Random.Range(0, lists.Count);
 
         while (elapsedTime < rollDuration)
         {
-            int randomIndex = Random.Range(0, foods.Count);
-            whatToEat.ChangeImageAndText(foods[randomIndex].foodIcon, foods[randomIndex].foodName);
+            int randomIndex = Random.Range(0, lists.Count);
+            whatToEat.ChangeImageAndText(lists[randomIndex].choiceicon, lists[randomIndex].choicename);
 
             yield return new WaitForSeconds(rollSpeed);
             elapsedTime += rollSpeed;
         }
 
         // Show the final selected food item
-        whatToEat.ChangeImageAndText(foods[finalIndex].foodIcon, foods[finalIndex].foodName);
-        Debug.Log("Final selection: " + foods[finalIndex].foodName);
+        whatToEat.ChangeImageAndText(lists[finalIndex].choiceicon, lists[finalIndex].choicename);
+        Debug.Log("Final selection: " + lists[finalIndex].choicename);
         StartCoroutine(PlayConfetti());
         whatToEat.ButtonInteractable(true);
     }

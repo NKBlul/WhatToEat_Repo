@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52348c4ea43cac342a6a4585b88b481d, type: 3}
   m_Name: Chinese
   m_EditorClassIdentifier: 
-  foodName: Chinese
-  foodIcon: {fileID: 21300000, guid: 2cce37cd85ef5ec4a92a7086ce35be83, type: 3}
+  choicename: Chinese
+  choiceicon: {fileID: 21300000, guid: 2cce37cd85ef5ec4a92a7086ce35be83, type: 3}
