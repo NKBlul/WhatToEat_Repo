@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Roll : MonoBehaviour
 {
     FoodList foodList;
+    WhatToEat whatToEat;
     [SerializeField] private float rollDuration = 3f; 
     [SerializeField] private float rollSpeed = 0.2f;
     [SerializeField] GameObject confettiPrefab;
@@ -13,6 +14,7 @@ public class Roll : MonoBehaviour
     private void Awake()
     {
         foodList = GetComponent<FoodList>();
+        whatToEat = GetComponent<WhatToEat>();
     }
 
     public void RollForFood()
@@ -22,24 +24,24 @@ public class Roll : MonoBehaviour
 
     private IEnumerator RollAnimation(List<FoodSO> foods)
     {
-        UIManager.instance.ButtonInteractable(false);
+        whatToEat.ButtonInteractable(false);
         float elapsedTime = 0f;
         int finalIndex = Random.Range(0, foods.Count);
 
         while (elapsedTime < rollDuration)
         {
             int randomIndex = Random.Range(0, foods.Count);
-            UIManager.instance.ChangeImageAndText(foods[randomIndex].foodIcon, foods[randomIndex].foodName);
+            whatToEat.ChangeImageAndText(foods[randomIndex].foodIcon, foods[randomIndex].foodName);
 
             yield return new WaitForSeconds(rollSpeed);
             elapsedTime += rollSpeed;
         }
 
         // Show the final selected food item
-        UIManager.instance.ChangeImageAndText(foods[finalIndex].foodIcon, foods[finalIndex].foodName);
+        whatToEat.ChangeImageAndText(foods[finalIndex].foodIcon, foods[finalIndex].foodName);
         Debug.Log("Final selection: " + foods[finalIndex].foodName);
         StartCoroutine(PlayConfetti());
-        UIManager.instance.ButtonInteractable(true);
+        whatToEat.ButtonInteractable(true);
     }
 
     IEnumerator PlayConfetti()

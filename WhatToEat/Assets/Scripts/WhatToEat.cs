@@ -1,28 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
+public class WhatToEat : MonoBehaviour
 {
-    public static UIManager instance;
+    public static WhatToEat instance;
 
     [SerializeField] Image foodImage;
     [SerializeField] TextMeshProUGUI foodText;
     [SerializeField] Button button;
+    [SerializeField] Button backButton;
 
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        backButton.onClick.AddListener(() => ScenesManager.instance.LoadScene("MainScreen"));
     }
 
     public void ChangeImageAndText(Sprite image, string name)
