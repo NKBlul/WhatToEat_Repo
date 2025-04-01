@@ -274,19 +274,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 166086394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1085853495}
-        m_TargetAssemblyTypeName: MainScene, Assembly-CSharp
-        m_MethodName: LoadEatLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &166086394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,6 +767,63 @@ RectTransform:
   m_AnchoredPosition: {x: -0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &836836954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 26395393139273714, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5468020500091285519, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
+      propertyPath: m_Name
+      value: ScenesManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cab7606c235029b4e94a8cdb7e31dac9, type: 3}
 --- !u!1 &881593323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,6 +1364,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20d4f2638aab6ed4c8685de0fc555c9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eatButton: {fileID: 166086393}
+  playButton: {fileID: 1010284883}
+  watchButton: {fileID: 1426808981}
 --- !u!1 &1426808979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,3 +1768,4 @@ SceneRoots:
   - {fileID: 983867176}
   - {fileID: 1085853494}
   - {fileID: 162468237}
+  - {fileID: 836836954}
