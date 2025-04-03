@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: COOP
   m_EditorClassIdentifier: 
   choicename: Coop
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: 4380a78f570a5b24e8c2c35d20beeec7, type: 3}

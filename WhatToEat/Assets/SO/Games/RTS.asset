@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: RTS
   m_EditorClassIdentifier: 
   choicename: Real Time Strategy
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: 9685f8dcf5313ee4995827dc58e95ce4, type: 3}

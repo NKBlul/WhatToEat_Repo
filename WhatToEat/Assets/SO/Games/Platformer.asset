@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Platformer
   m_EditorClassIdentifier: 
   choicename: Platformer
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: 703819a49a7976248b717cfd09971e9e, type: 3}

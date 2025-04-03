@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Horror
   m_EditorClassIdentifier: 
   choicename: Horror
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: a3f1b2c8b78f94345a7af208e3d19bb4, type: 3}

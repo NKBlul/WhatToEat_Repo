@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Puzzle
   m_EditorClassIdentifier: 
   choicename: Puzzle
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: d5779f004b58b4d45a69d681baa7b48e, type: 3}

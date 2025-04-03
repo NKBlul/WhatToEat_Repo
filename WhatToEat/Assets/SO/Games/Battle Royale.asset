@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Battle Royale
   m_EditorClassIdentifier: 
   choicename: Battle Royale
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: be83e5de41c585b49a86fc2ac6aa3a33, type: 3}

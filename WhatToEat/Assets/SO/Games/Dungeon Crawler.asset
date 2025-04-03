@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Dungeon Crawler
   m_EditorClassIdentifier: 
   choicename: Dungeon Crawler
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: 70a3dbb0de6603449b367bdede6bb58b, type: 3}
