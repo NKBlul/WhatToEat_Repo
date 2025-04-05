@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Crime
   m_EditorClassIdentifier: 
   choicename: Crime
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: 7b8711ea7f0581c4b920073f3866866b, type: 3}

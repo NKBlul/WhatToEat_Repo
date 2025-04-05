@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52348c4ea43cac342a6a4585b88b481d, type: 3}
-  m_Name: Fantasy
+  m_Name: Detective
   m_EditorClassIdentifier: 
-  choicename: Fantasy
-  choiceicon: {fileID: 21300000, guid: efeb381f77c63174fa1bb6c75981d6ad, type: 3}
+  choicename: Detective
+  choiceicon: {fileID: 21300000, guid: edf27b5cbafc4fb409d7ac8094ee70a6, type: 3}

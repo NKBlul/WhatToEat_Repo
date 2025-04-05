@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Documentary
   m_EditorClassIdentifier: 
   choicename: Documentary
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: 58e01832b19ac84458c646694f2998ec, type: 3}

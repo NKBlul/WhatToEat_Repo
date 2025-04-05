@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Comedy
   m_EditorClassIdentifier: 
   choicename: Comedy
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: e3aacd4dff1e5a8468aa21c719bcf32e, type: 3}

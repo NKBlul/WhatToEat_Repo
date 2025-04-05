@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Drama
   m_EditorClassIdentifier: 
   choicename: Drama
-  choiceicon: {fileID: 0}
+  choiceicon: {fileID: 21300000, guid: 01a5ee70ed44fa5429726791a67f74a1, type: 3}
